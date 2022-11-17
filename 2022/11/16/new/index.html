@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -17,15 +17,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Suche...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="题目传送门 一道思维好题，还能练习线段树。 题目是要求维护一棵树，可以考虑转化成序列上的操作。 如题目样例可以 dfs 转化成这样一个欧拉序（但稍微有些变化）： 1 2 3 -3 5 -5 -2 4 -4 -1 这样维护单节点的操作只需要两次单点修改，区间修改时只需要子树区间整体加减即可。查询时就询问结点1到结点 x 在欧拉序中进入时的位置的区间和，欧拉序中包含的子树可以抵消。 这里需要注意区间加">
 <meta property="og:type" content="article">
 <meta property="og:title" content="new">
 <meta property="og:url" content="http://example.com/2022/11/16/new/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Null_Pointer&#39;s blog">
 <meta property="og:description" content="题目传送门 一道思维好题，还能练习线段树。 题目是要求维护一棵树，可以考虑转化成序列上的操作。 如题目样例可以 dfs 转化成这样一个欧拉序（但稍微有些变化）： 1 2 3 -3 5 -5 -2 4 -4 -1 这样维护单节点的操作只需要两次单点修改，区间修改时只需要子树区间整体加减即可。查询时就询问结点1到结点 x 在欧拉序中进入时的位置的区间和，欧拉序中包含的子树可以抵消。 这里需要注意区间加">
-<meta property="og:locale">
+<meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-11-16T15:15:24.000Z">
 <meta property="article:modified_time" content="2022-11-16T15:17:05.920Z">
 <meta property="article:author" content="Null_Pointer">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh","comments":true,"permalink":"http://example.com/2022/11/16/new/","path":"2022/11/16/new/","title":"new"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2022/11/16/new/","path":"2022/11/16/new/","title":"new"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>new | Hexo</title>
+<title>new | Null_Pointer's blog</title>
   
 
 
@@ -59,7 +59,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten" role="button">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
     </div>
   </div>
 
@@ -67,9 +67,10 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">Hexo</p>
+      <p class="site-title">Null_Pointer's blog</p>
       <i class="logo-line"></i>
     </a>
+      <p class="site-subtitle" itemprop="description">一只小菜鸡的窝窝</p>
   </div>
 
   <div class="site-nav-right">
@@ -98,10 +99,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          Table of Contents
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          Overview
         </li>
       </ul>
 
@@ -114,14 +115,14 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">Null_Pointer</p>
-  <div class="site-description" itemprop="description">我好菜啊</div>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">posts</span>
         </a>
       </div>
   </nav>
@@ -159,7 +160,7 @@
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/16/new/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -168,12 +169,12 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-      <meta itemprop="description" content="我好菜啊">
+      <meta itemprop="name" content="Null_Pointer's blog">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="new | Hexo">
+      <meta itemprop="name" content="new | Null_Pointer's blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
@@ -187,10 +188,10 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Veröffentlicht am</span>
+      <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Erstellt: 2022-11-16 23:15:24 / Geändert am: 23:17:05" itemprop="dateCreated datePublished" datetime="2022-11-16T23:15:24+08:00">2022-11-16</time>
+      <time title="Created: 2022-11-16 23:15:24 / Modified: 23:17:05" itemprop="dateCreated datePublished" datetime="2022-11-16T23:15:24+08:00">2022-11-16</time>
     </span>
 
   
@@ -222,15 +223,6 @@
 
         
 
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2022/11/16/hello-world/" rel="prev" title="Hello World">
-                  <i class="fa fa-chevron-left"></i> Hello World
-                </a>
-            </div>
-            <div class="post-nav-item">
-            </div>
-          </div>
     </footer>
   </article>
 </div>
@@ -255,7 +247,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Null_Pointer</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
 
     </div>
@@ -263,7 +255,7 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
 
